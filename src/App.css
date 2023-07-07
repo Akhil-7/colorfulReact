@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.App{
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+min-height: 100vh;
+padding-top: 10%;
+}
+.Main{
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  padding: 3%;
+}
+.Main h1{
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+.icons{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  opacity: 87%;
+  border-radius: 5%;
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.692));
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.icons:hover{
+  cursor: pointer;
+}
+.menus{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Spline Sans Mono', monospace;
+  letter-spacing: 2.5px;
+  line-height: 20px;
+}
+#bg-rr{
+  background-color: #4169e1;
+}
+#bg-mer{
+  background-color: #7b1113;
+}
+#bg-mar{
+  background-color: #013220;
+}
+#bg-fer{
+  background-color: #BB4A4D;
+}
+#bg-aud{
+  background-color: #ffbf00;
+}
+#bg-bmw{
+  background-color: #8c92ac;
+}
+#bg-ben{
+  background-color: #AD1C42;
+}
+#bg-lan{
+  background-color: #006d66;
+}
+.ico h1{
+  /* color: #36454f; */
+  color: #fff;
+  font-size: 3em;
+  filter: drop-shadow(1px 2px 1px rgb(0, 0, 0));
+}
+.ico h5{
+  /* color: #36454f; */
+  color: #fff;
+  font-size: 1.2em;
+  filter: drop-shadow(1px 2px 1px rgb(0, 0, 0));
+  margin-bottom: 10px;
+}
+.item{
+  padding: 20px;
+  border-radius: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BackBtn{
+  padding: 10px;
+  width: 5rem;
+  margin-bottom: 5px;
+  font-family: 'Lobster', cursive;
+  background-color: #2F3349;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 4px rgb(159, 158, 158));
+}
+.BackBtn:hover{
+  cursor: pointer;
+}
+.BtnCon{
+  display: flex;
+  justify-content: right;
+}
+.SinIcon{
+  font-size: 10rem;
+  filter: drop-shadow(1px 1px 5px #000);
+}
+.SinItem{
+  font-size: 5rem;
+  filter: drop-shadow(1px 1px 5px #000);
+
+}
+.Desc{
+  font-weight: 100;
+  font-size: 0.7rem;
+  white-space: nowrap; 
+  width: 150px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  font-family: 'Spline Sans Mono', monospace;
+}
+.SinDesc{
+  text-align: center;
+  line-height: 30px;
+  font-weight: 500;
+  margin: auto;
+  letter-spacing: 2px;
+  width: 80%;
+}
